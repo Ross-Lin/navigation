@@ -10,3 +10,4 @@ services:
       - ./log:/var/log/nginx
     ports:
       - "8080:80"
+      

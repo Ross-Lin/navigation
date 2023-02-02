@@ -1,6 +1,6 @@
 <template>
     <a
-        href="https://github.com/Hopetree/hao"
+        href="https://github.com/Ross-Lin/navigation"
         class="github-corner"
         aria-label="View source on GitHub"
         target="_blank"

@@ -1,4 +1,5 @@
 <template>
+    <!-- form表单中action属性的作用是，当提交表单时向何处发送表单数据。 -->
     <el-form method="get" target="_blank" :action="scdata.url" id="search-component">
         <el-form-item>
             <el-input placeholder="请输入搜索内容" :name="scdata.key" v-model="sctext" clearable>
@@ -41,7 +42,8 @@ export default {
         };
     },
     created() {
-        // 设置默认值
+        // 设置默认值，sessionStorage 用于临时保存同一窗口(或标签页)的数据，在关闭窗口或标签页之后将会删除这些数据。
+        // 如果你想在浏览器窗口关闭后还保留数据，可以使用 localStorage 属性， 改数据对象没有过期时间，今天、下周、明年都能用，除非你手动去删除。
         var last_type = sessionStorage.getItem("last_type");
         var default_type = last_type
             ? last_type

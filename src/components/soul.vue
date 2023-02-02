@@ -21,7 +21,7 @@ export default {
     methods: {
         updateSoul: function () {
             var soulList = this.$store.state.soulList;
-            this.mysoul = soulList[Math.floor(Math.random() * soulList.length)];
+            this.mysoul = soulList[Math.floor(Math.random() * soulList.length)]; // 随机取出一句话
         },
     },
 };
