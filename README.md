@@ -1,3 +1,4 @@
+![Image text](https://github.com/Ross-Lin/navigation/blob/master/static/img/nav.jpg)
 ## Build Setup
 
 ``` bash
