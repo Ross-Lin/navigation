@@ -2,7 +2,7 @@
     <!-- form表单中action属性的作用是，当提交表单时向何处发送表单数据。 -->
     <el-form method="get" target="_blank" :action="scdata.url" id="search-component">
         <el-form-item>
-            <el-input placeholder="请输入搜索内容" :name="scdata.key" v-model="sctext" clearable>
+            <el-input placeholder="搜索一下" :name="scdata.key" v-model="sctext" clearable>
                 <el-dropdown
                     trigger="click"
                     slot="prepend"

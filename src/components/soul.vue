@@ -3,7 +3,7 @@
         <div class="souls">
             <span>{{mysoul}}</span>
         </div>
-        <el-button type="primary" size="small" round @click="updateSoul">再来一碗</el-button>
+        <el-button type="primary" size="small" round @click="updateSoul">换一句</el-button>
     </div>
 </template>
 
