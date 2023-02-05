@@ -110,6 +110,38 @@ const linkList = {
             icon: img_path + 'bilibili.png'
         }
     ],
+    myblog: [
+        {
+            title: 'csnd博客',
+            url: 'https://blog.csdn.net/weixin_44198546?spm=1000.2115.3001.5343',
+            icon: img_path + 'csdnBlog.ico'
+        },
+        {
+            title: '掘金博客',
+            url: 'https://juejin.cn/user/1838829209661896',
+            icon: img_path + 'xtjjBlog.png'
+        },
+        {
+            title: 'csnd博客',
+            url: 'https://blog.csdn.net/weixin_44198546?spm=1000.2115.3001.5343',
+            icon: img_path + 'csdnBlog.ico'
+        },
+        {
+            title: 'csnd博客',
+            url: 'https://blog.csdn.net/weixin_44198546?spm=1000.2115.3001.5343',
+            icon: img_path + 'csdnBlog.ico'
+        },
+        {
+            title: 'csnd博客',
+            url: 'https://blog.csdn.net/weixin_44198546?spm=1000.2115.3001.5343',
+            icon: img_path + 'csdnBlog.ico'
+        },
+        {
+            title: 'csnd博客',
+            url: 'https://blog.csdn.net/weixin_44198546?spm=1000.2115.3001.5343',
+            icon: img_path + 'csdnBlog.ico'
+        }
+    ]
     // news: [
     //     {
     //         title: '微博',

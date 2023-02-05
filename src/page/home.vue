@@ -1,6 +1,6 @@
 <template>
     <div>
-        <component-github-corner></component-github-corner>
+        <!-- <component-github-corner></component-github-corner> -->
         <el-row type="flex" class="row-bg" justify="center">
             <el-col :xs="20" :sm="16" :md="12" :lg="8" id="col-search">
                 <component-search></component-search>
